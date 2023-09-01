@@ -28,7 +28,7 @@ This project uses Maven for dependency management and building. To build the pro
 
 ```bash
 mvn clean package
-
+```
 ## Contributors
 
 - [Brian McKeown](https://github.com/brian-mckeown)
