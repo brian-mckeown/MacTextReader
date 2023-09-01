@@ -12,10 +12,15 @@ This is a simple Java Swing application that mimics a text reading interface, si
 ## Requirements
 
 - macOS with Java JDK installed (developed and tested on OpenJDK 20)
-- Maven for building the project
 - For text-to-speech, macOS's native `say` command is used, so the application is specific to macOS environments.
 
 ## Installation and Usage
+
+1. Download the `TextReader.jar` file.
+2. Double-click the jar file to run the application, or run `java -jar TextReader.jar` in your terminal.
+3. A window will appear with a text input field at the bottom and an empty text area above it.
+4. Type your message into the text field and press Enter.
+5. The message will be logged with a timestamp above, and macOS's native `say` command will read the text out loud.
 
 ### Building with Maven
 
@@ -23,11 +28,11 @@ This project uses Maven for dependency management and building. To build the pro
 
 ```bash
 mvn clean package
-This will generate an executable jar file in the target directory.
 
-### Running the Application
+## Contributors
 
-After building the project, navigate to the `target` directory where the executable jar file is located. Run the following command to launch the application:
+- [Brian McKeown](https://github.com/brian-mckeown)
 
-```bash
-java -jar yourartifact-1.0.jar
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
